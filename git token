@@ -1,1 +1,13 @@
 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
+
+
+EDITOR="sublime --wait" rails credentials:edit --environment=development
+
+export VISUAL="subl --wait"
+rails credentials:edit
+
+
+twitter:
+	consumer_key: HSNKMLBvwM18aBgBKcf9w8KAW
+	secret_key: zE1yIkYfO9XFj4zyuMaCkEvouxWfHiEqnn6olQvoAZnBW25vHa
+	bearer_token: AAAAAAAAAAAAAAAAAAAAACAd7gEAAAAAV5g4Pl29ggkrr7HbjSL4GlF3W%2F4%3DelgpsYc6Je0NLszeOgdvqyKosqb0FMjxSbNMqjcG3q32EczeMo

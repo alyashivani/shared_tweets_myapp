@@ -5,3 +5,8 @@
     Logged in as <%= @user.email %>
   <% end %>
 </div>
+
+<% if current_user %>
+  <%= button_to "Login with Twitter", "/auth/twitter2", method: :post, class: "btn btn-primary" %>
+<% end %>
+
