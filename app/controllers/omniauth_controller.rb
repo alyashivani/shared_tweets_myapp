@@ -5,7 +5,8 @@ class OmniauthController < ApplicationController
       name: auth.info.name,
       image: auth.info.image,
       token: auth.credentials.token,
-      secret: auth.credentials.secret,
+      refresh_token: auth.credentials.refresh_token,
+      expires_at: auth.credentials.expires_at
     )
 
     redirect_to twitter_accounts_path, notice: "Successfully connected your account"
